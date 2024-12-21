@@ -22,7 +22,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <h1>Image Upload App</h1>
+        {/* <h1>Image Upload App</h1> */}
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route
@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/stylist/upload" 
                  element={<StylistUpload handleLogout={handleLogout} />}
           />
-        </Routes>
+        </Routes> 
       </div>
     </Router>
   );
